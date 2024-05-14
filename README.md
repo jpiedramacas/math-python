@@ -1,45 +1,56 @@
-Claro, aquí tienes un ejemplo de cómo podría ser un archivo README.md para explicar la función `calcular_promedio`:
+función `calcular_promedio`:
 
-```markdown
-# Calculadora de Promedio
+---
 
-Este es un pequeño script de Python que contiene una función llamada `calcular_promedio` que calcula el promedio de una lista de números.
+# Calculadora de promedio
+
+Esta es una sencilla calculadora de promedio escrita en Python. La función `calcular_promedio` toma una lista de números como entrada y devuelve el promedio de esos números.
 
 ## Uso
 
-Simplemente proporciona una lista de números como argumento a la función `calcular_promedio` y esta devolverá el promedio de esos números.
+Para usar esta función en tu propio código Python, sigue estos pasos:
 
-```python
-numeros = [10, 20, 30, 40, 50]
-resultado = calcular_promedio(numeros)
-print("El promedio es:", resultado)
-```
+1. Asegúrate de tener Python instalado en tu sistema.
+
+2. Copia la función `calcular_promedio` en tu script o archivo Python.
+
+3. Pasa una lista de números como argumento a la función `calcular_promedio`. Por ejemplo:
+
+    ```python
+    numeros = [10, 20, 30, 40, 50]
+    resultado = calcular_promedio(numeros)
+    print("El promedio es:", resultado)
+    ```
+
+    Esto imprimirá el promedio de los números en la lista `numeros`.
 
 ## Funcionamiento
 
-La función `calcular_promedio` itera sobre la lista de números sumándolos todos y luego divide la suma por la cantidad de elementos en la lista para calcular el promedio. Este promedio se devuelve como resultado.
+La función `calcular_promedio` funciona de la siguiente manera:
 
-```python
-def calcular_promedio(valores):
-    suma = 0
-    for valor in valores:
-        suma += valor
-    promedio = suma / len(valores)
-    return promedio
-```
+1. Inicia una variable `suma` con valor 0.
+
+2. Recorre cada número en la lista de valores sumándolos a la variable `suma`.
+
+3. Calcula el promedio dividiendo la suma total por la cantidad de números en la lista.
+
+4. Devuelve el promedio calculado.
 
 ## Ejemplo
 
-Si tenemos la lista `[10, 20, 30, 40, 50]`, el promedio será `(10 + 20 + 30 + 40 + 50) / 5 = 30`.
-
-## Requisitos
-
-Este script utiliza Python 3 y no requiere ninguna biblioteca adicional más allá de las bibliotecas estándar de Python.
-
-## Contribuciones
-
-Siéntete libre de contribuir a este proyecto. Puedes enviar sugerencias, informar sobre errores o agregar nuevas características mediante pull requests.
+Supongamos que tenemos la lista de números `[10, 20, 30, 40, 50]`. La función `calcular_promedio` calculará el promedio de estos números de la siguiente manera:
 
 ```
+suma = 10 + 20 + 30 + 40 + 50 = 150
+promedio = 150 / 5 = 30
+```
 
-Este README proporciona una descripción básica de la función `calcular_promedio`, cómo usarla, cómo funciona internamente y un ejemplo de su uso. También incluye información sobre los requisitos del proyecto y cómo contribuir al mismo. Puedes personalizarlo según tus necesidades y el contexto de tu proyecto.
+Por lo tanto, el promedio de los números en la lista es 30.
+
+## Contribuir
+
+Si encuentras algún error o tienes alguna sugerencia de mejora, no dudes en abrir un issue o enviar un pull request.
+
+---
+
+GIO
