@@ -1,4 +1,4 @@
-función `calcular_promedio`:
+Función `calcular_promedio`:
 
 ---
 
