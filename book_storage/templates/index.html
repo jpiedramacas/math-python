@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tienda de Libros</title>
+</head>
+<body>
+    <h1>Tienda de Libros</h1>
+    
+    <h2>Agregar Libro</h2>
+    <form action="/agregar" method="post">
+        Título: <input type="text" name="titulo" required><br>
+        Autor: <input type="text" name="autor" required><br>
+        Precio: <input type="text" name="precio" required><br>
+        <input type="submit" value="Agregar Libro">
+    </form>
+
+    <h2>Buscar Libro</h2>
+    <form action="/buscar" method="post">
+        Título: <input type="text" name="titulo" required><br>
+        <input type="submit" value="Buscar Libro">
+    </form>
+
+    <h2>Vender Libro</h2>
+    <form action="/vender" method="post">
+        Título: <input type="text" name="titulo" required><br>
+        <input type="submit" value="Vender Libro">
+    </form>
+
+    <h2>Libros en Inventario</h2>
+    <ul>
+        {% for libro in libros %}
+            <li>{{ libro }}</li>
+        {% endfor %}
+    </ul>
+
+    {% if libro %}
+        <h2>Resultado de la Búsqueda</h2>
+        <p>{{ libro }}</p>
+    {% endif %}
+</body>
+</html>
