@@ -1,0 +1,22 @@
+### Enunciado:
+
+Este ejemplo demuestra cómo la programación orientada a objetos se centra en identificar entidades (objetos) y definir su comportamiento, lo que facilita la adaptación a cambios en los requerimientos mediante la modificación de las clases y objetos.
+
+Se definen dos clases, `Cuadrado` y `Cubo`, que representan entidades geométricas. La clase `Cubo` hereda de la clase `Cuadrado` y agrega un método para calcular el volumen. Esto ilustra cómo la POO permite la reutilización de código y facilita la adaptación a cambios mediante la modificación de las clases y objetos.
+
+### Explicación del Código:
+
+- **Definición de la Clase `Cuadrado`:**
+    - Se define una clase llamada `Cuadrado`.
+    - La clase tiene un constructor `__init__` que inicializa el atributo `lado`.
+    - La clase tiene un método `calcular_area` que calcula y devuelve el área del cuadrado multiplicando el lado por sí mismo.
+
+- **Definición de la Clase `Cubo`:**
+    - Se define una clase llamada `Cubo` que hereda de la clase `Cuadrado`.
+    - La clase tiene un método `calcular_volumen` que calcula y devuelve el volumen del cubo multiplicando el lado por sí mismo tres veces (ya que un cubo es un cuadrado en tres dimensiones).
+
+- **Función Principal `main()`:**
+    - En la función principal `main()`, se definen dos variables `lado_cuadrado` y `lado_cubo` con valores 5 y 3 respectivamente.
+    - Se crea una instancia de la clase `Cuadrado` llamada `cuadrado` con el lado `lado_cuadrado` y se llama al método `calcular_area` para calcular el área del cuadrado.
+    - Se crea una instancia de la clase `Cubo` llamada `cubo` con el lado `lado_cubo` y se llama al método `calcular_volumen` para calcular el volumen del cubo.
+    - Se imprime el área del cuadrado y el volumen del cubo.

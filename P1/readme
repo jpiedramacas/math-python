@@ -1,0 +1,27 @@
+### Enunciado:
+
+Este ejemplo ilustra cómo la programación basada en funciones divide el problema en funciones más pequeñas y manejables. Cada función realiza una tarea específica, como calcular el área de un cuadrado o el volumen de un cubo, lo que facilita la comprensión y el mantenimiento del código.
+
+### Explicación del Código:
+
+1. **Función para Calcular el Área de un
+
+Cuadrado:**
+    - Se define una función llamada `calcular_area_cuadrado` que toma un parámetro `lado`.
+    - La función calcula y devuelve el área del cuadrado multiplicando el lado por sí mismo (`lado * lado`).
+
+2. **Función para Calcular el Volumen de un Cubo:**
+    - Se define una función llamada `calcular_volumen_cubo` que toma un parámetro `lado`.
+    - La función calcula y devuelve el volumen del cubo multiplicando el lado por sí mismo tres veces (`lado * lado * lado`).
+
+3. **Función Principal `main()`:**
+    - En la función `main()`, se definen dos variables: `lado_cuadrado` y `lado_cubo`, con valores 5 y 3 respectivamente.
+    - Se llama a la función `calcular_area_cuadrado` con `lado_cuadrado` como argumento y se almacena el resultado en la variable `area`.
+    - Se llama a la función `calcular_volumen_cubo` con `lado_cubo` como argumento y se almacena el resultado en la variable `volumen`.
+    - Se imprimen los resultados del área del cuadrado y del volumen del cubo utilizando `print`.
+
+4. **Ejecución del Programa:**
+    - Si este script se ejecuta directamente (es decir, no es importado como módulo en otro script), se llama a la función `main()` para iniciar el programa.
+    - La declaración `if __name__ == "__main__":` asegura que `main()` se ejecute solo cuando el script se ejecuta directamente.
+
+Este enfoque muestra cómo descomponer un problema en funciones más pequeñas y manejables. Cada función realiza una tarea específica, lo que facilita la comprensión, el mantenimiento y la reutilización del código.

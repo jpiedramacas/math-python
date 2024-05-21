@@ -1,0 +1,27 @@
+### Enunciado:
+
+Crear un script en Python con varias funciones que realicen operaciones matemáticas simples. Las funciones deben incluir al menos las siguientes:
+
+1. Una función llamada `sumar` que reciba dos números como argumentos y devuelva la suma de los mismos.
+2. Una función llamada `restar` que reciba dos números como argumentos y devuelva la resta del segundo número al primero.
+3. Una función llamada `multiplicar` que reciba dos números como argumentos y devuelva su producto.
+4. Una función llamada `dividir` que reciba dos números como argumentos y devuelva su división, teniendo en cuenta la posibilidad de división por cero.
+
+Además, se debe crear una función principal llamada `main` que solicite al usuario que ingrese dos números y luego le dé la opción de elegir qué operación realizar (suma, resta, multiplicación o división). Una vez que el usuario elija la operación, debería llamar a la función correspondiente y mostrar el resultado.
+
+### Explicación del Código:
+
+- **Definición de Funciones:**
+    - Se definen varias funciones para realizar operaciones matemáticas simples: `sumar`, `restar`, `multiplicar` y `dividir`. Cada función toma dos números como argumentos y realiza la operación correspondiente, devolviendo el resultado.
+
+- **Función Principal `main()`:**
+    - La función principal `main()` solicita al usuario que ingrese dos números y la operación que desea realizar.
+    - Dependiendo de la operación seleccionada por el usuario, se llama a la función correspondiente (`sumar`, `restar`, `multiplicar` o `dividir`) y se muestra el resultado.
+
+- **Manejo de División por Cero:**
+    - La función `dividir` incluye una verificación para evitar la división por cero. Si el segundo número es cero, la función devuelve un mensaje indicando que no se puede dividir por cero.
+
+- **Ejecución del Programa:**
+    - La línea `if __name__ == "__main__":` asegura que la función `main()` se ejecute solo cuando el script se ejecute directamente (no cuando se importe como módulo en otro script).
+
+Este enfoque modulariza el código en funciones más pequeñas y manejables, lo que facilita su comprensión, mantenimiento y reutilización. Cada función realiza una tarea específica, lo que mejora la legibilidad y la claridad del código.

@@ -1,0 +1,47 @@
+
+### Enunciado
+
+Desarrolla un script en Python que simule el funcionamiento de una tienda de libros en línea. Tu objetivo es crear un sistema de gestión de inventario que permita a los usuarios agregar nuevos libros, buscar libros existentes por título y registrar ventas.
+
+Para lograr esto, sigue las siguientes especificaciones:
+
+1. **Clase `Libro`**:
+   - Define una clase llamada `Libro` que represente un libro en la tienda.
+   - Esta clase debe tener tres atributos: `titulo`, `autor` y `precio`.
+   - Implementa un método `__init__` para inicializar estos atributos cuando se crea una nueva instancia de la clase.
+
+2. **Clase `Inventario`**:
+   - Crea una clase llamada `Inventario` que gestione el inventario de la tienda.
+   - Esta clase debe tener los siguientes métodos:
+     - `__init__`: Inicializa una lista vacía para almacenar los libros en el inventario.
+     - `agregar_libro(libro)`: Recibe un objeto de la clase `Libro` y lo agrega al inventario.
+     - `buscar_libro(titulo)`: Recibe el título de un libro como argumento y busca en el inventario un libro con ese título. Si lo encuentra, muestra la información del libro (título, autor y precio). Si no lo encuentra, muestra un mensaje indicando que el libro no está en el inventario.
+     - `registrar_venta(titulo)`: Recibe el título de un libro vendido y actualiza el inventario eliminando el libro vendido. También muestra un mensaje confirmando la venta y actualiza el total de ventas.
+
+3. **Función principal `main()`**:
+   - Implementa una función principal llamada `main()` que permita al usuario interactuar con el sistema.
+   - En esta función, proporciona un menú con las siguientes opciones:
+     - Agregar un nuevo libro al inventario.
+     - Buscar un libro por título.
+     - Registrar una venta de un libro.
+     - Salir del programa.
+
+El sistema debe ser capaz de manejar entradas del usuario y realizar las acciones correspondientes según las opciones seleccionadas en el menú.
+
+### Explicación del Código
+
+1. **Clase Libro**:
+   - `__init__`: Inicializa los atributos `titulo`, `autor` y `precio`.
+   - `__str__`: Proporciona una representación en cadena del libro para imprimirlo fácilmente.
+
+2. **Clase Inventario**:
+   - `__init__`: Inicializa una lista vacía `libros` para almacenar los libros y un contador `total_ventas` para las ventas totales.
+   - `agregar_libro`: Agrega un objeto `Libro` a la lista `libros`.
+   - `buscar_libro`: Busca un libro por título en la lista `libros` y muestra su información si lo encuentra.
+   - `registrar_venta`: Busca un libro por título y lo elimina de la lista `libros`, actualizando las ventas totales.
+
+3. **Función Principal `main`**:
+   - Proporciona un menú interactivo para agregar libros, buscar libros y registrar ventas.
+   - Utiliza un bucle `while` para permitir al usuario realizar múltiples acciones hasta que decida salir.
+
+Puedes copiar y pegar este código en un archivo Python y ejecutarlo para simular el funcionamiento de una tienda de libros en línea.
