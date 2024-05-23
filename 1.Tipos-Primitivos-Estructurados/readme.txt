@@ -1,8 +1,8 @@
-**Enunciado:**
+Enunciado:
 
 Crear un programa que muestre ejemplos de distintos tipos de datos primitivos y estructurados en Python, incluyendo su dominio de valores, representación, conjunto de operadores y nombre identificativo.
 
-**Explicación:**
+Explicación:
 
 Este programa tiene como objetivo mostrar ejemplos de diferentes tipos de datos en Python, tanto primitivos como estructurados. Los tipos de datos primitivos son aquellos que representan valores básicos y simples, como enteros, reales y caracteres. Por otro lado, los tipos de datos estructurados son aquellos que pueden contener múltiples valores, como arrays, estructuras y enumerados.
 

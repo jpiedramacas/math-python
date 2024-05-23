@@ -1,8 +1,8 @@
 El enunciado es el siguiente:
 
-**Estructuras de Control:** Implementar un programa que utilice estructuras condicionales (if, if-else, if-elif-else) y bucles (for, while) en Python.
+Estructuras de Control: Implementar un programa que utilice estructuras condicionales (if, if-else, if-elif-else) y bucles (for, while) en Python.
 
-**Explicación:**
+Explicación:
 Este ejercicio consiste en crear un programa en Python que demuestre el uso de diferentes estructuras de control:
 1. **Estructuras condicionales:** Se utilizan para tomar decisiones basadas en condiciones. En Python, las estructuras condicionales más comunes son el `if`, `if-else`, y `if-elif-else`. 
 2. **Bucles:** Se utilizan para ejecutar un bloque de código varias veces. En este caso, se emplean el bucle `for` y el bucle `while`.

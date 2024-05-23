@@ -1,8 +1,8 @@
-### Enunciado:
+Enunciado:
 
 Implementa un programa en Python que utilice enumerados (enums) para representar conjuntos de constantes con nombres asociados. Como ejemplo, define un enumerado para los días de la semana y utiliza este enumerado en una función para mostrar información específica sobre cada día.
 
-### Explicación:
+Explicación:
 
 En Python, las enumeraciones (enums) permiten definir un conjunto de constantes con nombres significativos, lo que mejora la legibilidad y el mantenimiento del código. El módulo `enum` proporciona la clase `Enum` para crear enumeraciones. A continuación, se muestra un ejemplo de cómo definir y utilizar un enumerado para representar los días de la semana.
 

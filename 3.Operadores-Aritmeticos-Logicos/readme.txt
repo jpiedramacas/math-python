@@ -1,8 +1,8 @@
-**Enunciado:**
+Enunciado:
 
 Desarrollar un programa que utilice los distintos operadores aritméticos y lógicos en Python.
 
-**Explicación:**
+Explicación:
 
 El programa muestra ejemplos del uso de operadores aritméticos y lógicos en Python. 
 

@@ -1,8 +1,8 @@
-### Enunciado:
+Enunciado:
 
 Escribe un programa en Python que trabaje con listas y tuplas, destacando la diferencia entre estos dos tipos de datos y demostrando cómo se pueden utilizar en distintos contextos.
 
-### Explicación:
+Explicación:
 
 En Python, las listas y las tuplas son tipos de datos que se utilizan para almacenar colecciones ordenadas de elementos. La diferencia principal entre ellas radica en su mutabilidad: las listas son mutables (sus elementos pueden ser modificados después de la creación), mientras que las tuplas son inmutables (una vez creadas, no se pueden modificar sus elementos). A continuación, se explica cómo trabajar con listas y tuplas:
 

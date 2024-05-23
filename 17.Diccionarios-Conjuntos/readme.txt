@@ -1,8 +1,8 @@
-### Enunciado:
+Enunciado:
 
 Desarrolla un programa en Python que haga uso de diccionarios y conjuntos para almacenar y manipular datos de manera eficiente.
 
-### Explicación:
+Explicación:
 
 En Python, los diccionarios y los conjuntos son estructuras de datos muy útiles para almacenar y manipular datos de manera eficiente. Aquí está la explicación de cómo se utilizan en el programa propuesto:
 

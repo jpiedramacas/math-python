@@ -1,8 +1,8 @@
-### Enunciado:
+Enunciado:
 
 En los programas a veces es necesario convertir algún valor de un tipo a otro. Por ejemplo, si estás usando un valor numérico decimal y deseas solo su parte entera, puedes realizar una conversión. Escribe un programa en Python que demuestre varios ejemplos de conversiones de tipos comunes, tales como de entero a flotante, de flotante a entero, de cadena a entero, entre otros.
 
-### Explicación:
+Explicación:
 
 En Python, es común tener que convertir valores entre diferentes tipos de datos para realizar ciertas operaciones o para satisfacer los requisitos de la entrada/salida de datos. Aquí se presentan varios ejemplos de cómo se pueden hacer estas conversiones usando funciones integradas de Python.
 

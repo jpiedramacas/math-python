@@ -1,5 +1,5 @@
 Enunciado:
-Desarrolla un programa en Python que calcule el factorial de un número de forma recursiva.
+Desarrolla un programa en Python que calcule el factorial de un número de forma recursiva
 
 Explicación:
 El programa consiste en una función llamada `factorial` que utiliza la recursividad para calcular el factorial de un número entero no negativo. El factorial de un número entero `n`, denotado como `n!`, es el producto de todos los enteros positivos menores o iguales a `n`. Por ejemplo, el factorial de 5 (`5!`) es igual a 5 x 4 x 3 x 2 x 1 = 120.

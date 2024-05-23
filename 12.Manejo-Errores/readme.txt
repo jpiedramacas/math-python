@@ -1,8 +1,8 @@
-### Enunciado:
+Enunciado:
 
 Crea un programa en Python que maneje excepciones utilizando bloques `try`, `except`, y `finally`. Incluye ejemplos de lanzamiento y captura de excepciones para demostrar cómo se pueden manejar errores comunes y cómo lanzar excepciones personalizadas.
 
-### Explicación:
+Explicación:
 
 En Python, el manejo de errores y excepciones es crucial para crear programas robustos y confiables. Los bloques `try`, `except`, y `finally` se utilizan para capturar y manejar excepciones, permitiendo que el programa responda adecuadamente a situaciones inesperadas sin fallar abruptamente. Además, podemos lanzar nuestras propias excepciones personalizadas usando la instrucción `raise`. 
 

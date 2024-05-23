@@ -1,12 +1,12 @@
 El enunciado es el siguiente:
 
-**Ficheros:**
+Ficheros:
 
 Escribir un programa que lea y escriba en ficheros en Python.
 
 Incluir ejemplos de lectura y escritura en ficheros, así como recorrido de un fichero secuencial utilizando feof.
 
-**Explicación:**
+Explicación:
 
 Este ejercicio se centra en manipular archivos en Python. El programa debe ser capaz de realizar las siguientes operaciones:
 

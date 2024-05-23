@@ -1,8 +1,8 @@
-### Enunciado:
+Enunciado:
 
 Desarrolla un programa en Python que trabaje con arrays, realizando operaciones como creación, acceso a elementos, modificación y recorrido. Además, incluye ejemplos de cómo añadir y eliminar elementos, obtener la longitud de un array, realizar slicing, concatenar arrays, invertir un array y buscar elementos específicos.
 
-### Explicación:
+Explicación:
 
 En Python, los arrays (o arreglos) son estructuras de datos que permiten almacenar múltiples elementos del mismo tipo. Aunque las listas de Python son más flexibles y comunes, el módulo `array` proporciona una implementación de arrays más eficiente en términos de memoria y rendimiento para datos homogéneos.
 

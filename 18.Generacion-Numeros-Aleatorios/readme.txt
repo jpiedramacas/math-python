@@ -1,8 +1,8 @@
-### Enunciado:
+Enunciado:
 
 Implementa un programa en Python que utilice la biblioteca `random` para generar números aleatorios, demostrando cómo estos números pueden ser utilizados para simular experimentos y tomar decisiones.
 
-### Explicación:
+Explicación:
 
 La biblioteca `random` de Python proporciona funciones para generar números aleatorios, lo que permite simular situaciones en las que se necesita aleatoriedad, como juegos, simulaciones y toma de decisiones. Aquí se explica cómo se utiliza en el programa propuesto:
 

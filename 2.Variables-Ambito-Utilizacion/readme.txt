@@ -1,4 +1,5 @@
-El enunciado pide crear un programa que demuestre el uso de variables y su ámbito en Python. El ámbito se refiere al contexto en el que una variable es válida y puede ser accedida. Hay dos tipos principales de ámbito en Python: global y local.
+El enunciado:
+pide crear un programa que demuestre el uso de variables y su ámbito en Python. El ámbito se refiere al contexto en el que una variable es válida y puede ser accedida. Hay dos tipos principales de ámbito en Python: global y local.
 
 El programa debe incluir lo siguiente:
 

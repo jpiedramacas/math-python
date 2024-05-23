@@ -1,8 +1,8 @@
-**Enunciado:**
+Enunciado:
 
 Desarrolla un algoritmo en Python que siga un diagrama de flujo dado. Supongamos que el diagrama de flujo es para encontrar el máximo de tres números.
 
-**Explicación:**
+Explicación:
 
 El objetivo de este ejercicio es implementar un algoritmo en Python que encuentre el máximo de tres números dados. La lógica para encontrar el máximo consiste en comparar los números entre sí y seleccionar el más grande.
 

@@ -1,8 +1,8 @@
-### Enunciado:
+Enunciado:
 
 Desarrolla un programa en Python que interactúe con el sistema operativo, realizando operaciones como lectura y escritura de archivos, navegación por directorios y ejecución de comandos.
 
-### Explicación:
+Explicación:
 
 Para interactuar con el sistema operativo en Python, utilizamos el módulo `os`, que proporciona funciones para realizar operaciones relacionadas con el sistema operativo subyacente. Aquí está la explicación de cómo se utiliza en el programa propuesto:
 

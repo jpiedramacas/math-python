@@ -1,8 +1,8 @@
-### Enunciado:
+Enunciado:
 
 Escribe un programa en Python que haga uso de operadores bit a bit para realizar operaciones a nivel de bits. Incluye ejemplos de operaciones como AND, OR, XOR, NOT, desplazamiento a la izquierda y desplazamiento a la derecha.
 
-### Explicación:
+Explicación:
 
 En Python, los operadores bit a bit permiten realizar operaciones a nivel de bits en enteros. Estos operadores son útiles cuando se necesita trabajar con datos a un nivel más bajo que las operaciones aritméticas estándar. Aquí está el desglose de los operadores utilizados en el programa:
 
